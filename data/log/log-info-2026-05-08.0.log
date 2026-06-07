@@ -1,0 +1,83 @@
+26-05-08.16:04:18.071 [main            ] INFO  Application            - Starting Application using Java 17.0.16 with PID 15380 (D:\aMyFile\code\javaProject\ai-agent-scaffold-vizhi\ai-agent-scaffold-vizhi-app\target\classes started by Lenovo in D:\aMyFile\code\javaProject\ai-agent-scaffold-vizhi)
+26-05-08.16:04:18.072 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-08.16:04:18.824 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:04:18.827 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'clientAnnotatedBeans' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration$ClientMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:04:18.835 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.ai.mcp.client.annotation-scanner-org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerProperties' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:04:19.056 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+26-05-08.16:04:19.072 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-08.16:04:19.073 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-08.16:04:19.073 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.36]
+26-05-08.16:04:19.160 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-08.16:04:19.160 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+26-05-08.16:04:19.229 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aiAgentAutoConfig': Injection of resource dependencies failed
+26-05-08.16:04:19.232 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-05-08.16:04:19.248 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26-05-08.16:04:19.267 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.vizhi.domain.agent.model.valobj.AiAgentConfigTableVO' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.vizhi.domain.agent.model.valobj.AiAgentConfigTableVO' in your configuration.
+
+26-05-08.16:06:36.704 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 8.0.2.Final
+26-05-08.16:06:36.736 [main            ] INFO  Application            - Starting Application using Java 17.0.16 with PID 19572 (D:\aMyFile\code\javaProject\ai-agent-scaffold-vizhi\ai-agent-scaffold-vizhi-app\target\classes started by Lenovo in D:\aMyFile\code\javaProject\ai-agent-scaffold-vizhi)
+26-05-08.16:06:36.737 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-08.16:06:37.424 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:06:37.426 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'clientAnnotatedBeans' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration$ClientMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:06:37.433 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.ai.mcp.client.annotation-scanner-org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerProperties' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:06:37.613 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+26-05-08.16:06:37.624 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-08.16:06:37.626 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-08.16:06:37.626 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.36]
+26-05-08.16:06:37.707 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-08.16:06:37.708 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 936 ms
+26-05-08.16:06:37.773 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aiAgentAutoConfig': Injection of resource dependencies failed
+26-05-08.16:06:37.775 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+26-05-08.16:06:37.788 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+26-05-08.16:06:37.803 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.vizhi.domain.agent.model.valobj.AiAgentConfigTableVO' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.vizhi.domain.agent.model.valobj.AiAgentConfigTableVO' in your configuration.
+
+26-05-08.16:10:40.973 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 8.0.2.Final
+26-05-08.16:10:41.018 [main            ] INFO  Application            - Starting Application using Java 17.0.16 with PID 36892 (D:\aMyFile\code\javaProject\ai-agent-scaffold-vizhi\ai-agent-scaffold-vizhi-app\target\classes started by Lenovo in D:\aMyFile\code\javaProject\ai-agent-scaffold-vizhi)
+26-05-08.16:10:41.022 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+26-05-08.16:10:41.651 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:10:41.653 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'clientAnnotatedBeans' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerAutoConfiguration$ClientMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:10:41.659 [main            ] WARN  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.ai.mcp.client.annotation-scanner-org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerProperties' of type [org.springframework.ai.mcp.client.common.autoconfigure.annotations.McpClientAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [clientAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+26-05-08.16:10:41.841 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+26-05-08.16:10:41.853 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+26-05-08.16:10:41.855 [main            ] INFO  StandardService        - Starting service [Tomcat]
+26-05-08.16:10:41.855 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.36]
+26-05-08.16:10:41.929 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+26-05-08.16:10:41.930 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 878 ms
+26-05-08.16:10:42.652 [main            ] WARN  SyncMcpSamplingProvider - No sampling methods found
+26-05-08.16:10:42.654 [main            ] WARN  SyncMcpElicitationProvider - No elicitation methods found
+26-05-08.16:10:42.749 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+26-05-08.16:10:42.757 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path '/'
+26-05-08.16:10:42.763 [main            ] INFO  Application            - Started Application in 2.212 seconds (process running for 2.937)
+26-05-08.16:11:16.317 [main            ] INFO  AiAgentAutoConfig      - Ai Agent 智能体装配 [{"agent":{"agentDesc":"一个测试的智能体","agentId":"100001","agentName":"测试智能体01"},"appName":"testAgent","module":{"agentWorkflows":[{"description":"Executes a sequence of code writing, reviewing, and refactoring.","maxIterations":3,"name":"CodePipelineAgent","subAgents":["CodeWriterAgent","CodeReviewerAgent","CodeRefactorerAgent"],"type":"sequential"}],"agents":[{"description":"Writes initial Java code based on a specification.","instruction":"You are a Java Code Generator.\nBased *only* on the user's request, write Java code that fulfills the requirement.\nOutput *only* the complete Java code block, enclosed in triple backticks (```java ... ```).\n","name":"CodeWriterAgent","outputKey":"generated_code"},{"description":"Reviews code and provides feedback.","instruction":"You are an expert Java Code Reviewer.\nYour task is to provide constructive feedback on the provided code.\n\n**Code to Review:**\n```java\n{generated_code}\n```\n\n**Review Criteria:**\n1.  **Correctness:** Does the code work as intended? Are there logic errors?\n2.  **Readability:** Is the code clear and easy to understand? Follows Java style guidelines?\n3.  **Efficiency:** Is the code reasonably efficient? Any obvious performance bottlenecks?\n4.  **Edge Cases:** Does the code handle potential edge cases or invalid inputs gracefully?\n5.  **Best Practices:** Does the code follow common Java best practices?\n\n**Output:**\nProvide your feedback as a concise, bulleted list. Focus on the most important points for improvement.\nIf the code is excellent and requires no changes, simply state: \"No major issues found.\"\nOutput *only* the review comments or the \"No major issues\" statement.\n","name":"CodeReviewerAgent","outputKey":"review_comments"},{"description":"Refactors code based on review comments.","instruction":"You are a Java Code Refactoring AI.\nYour goal is to improve the given Java code based on the provided review comments.\n\n**Original Code:**\n```java\n{generated_code}\n```\n\n**Review Comments:**\n{review_comments}\n\n**Task:**\nCarefully apply the suggestions from the review comments to refactor the original code.\nIf the review comments state \"No major issues found,\" return the original code unchanged.\nEnsure the final code is complete, functional, and includes necessary imports and docstrings.\n\n**Output:**\nOutput *only* the final, refactored Java code block, enclosed in triple backticks (```java ... ```).\nDo not add any other text before or after the code block.\n","name":"CodeRefactorerAgent","outputKey":"refactored_code"}],"aiApi":{"apiKey":"sk-XtwDTamqmHKOgs9DB5730c4744A749Da86F8F413A3C25f99","baseUrl":"https://apis.itedus.cn","completionsPath":"v1/chat/completions","embeddingsPath":"v1/embeddings"},"chatModel":{"model":"gpt-4.1","toolMcpList":[{"sse":{"baseUri":"http://appbuilder.baidu.com/v2/ai_search/mcp/","name":"baidu-search","requestTimeout":5000,"sseEndpoint":"sse?api_key=bce-v3/ALTAK-lnjC8E40kjEQo0xa9RiEw/2b7028dee6fe52504cbed6607d42dba3050a101c"}}]}}}]
+26-05-08.16:11:16.354 [SpringApplicationShutdownHook] INFO  GracefulShutdown       - Commencing graceful shutdown. Waiting for active requests to complete
+26-05-08.16:11:16.437 [tomcat-shutdown ] INFO  GracefulShutdown       - Graceful shutdown complete
